@@ -1,0 +1,121 @@
+
+				SECTION 0
+1. mkdir project_dir
+2. cd project_dir
+3. git init
+4. git status
+5. git add index.html
+6. git commit -m "index.html"
+7. touch info.txt
+8. git status
+9. touch .gitignore
+   cat .gitignore
+   type *.txt/newfolder/* in gitignore txt file
+
+10. git status
+11. git add index.html
+    git commit -m "index.html"
+
+12. git log
+13. changes in index.html
+14. git checkout --index.html
+15. change in index.html
+16. git add index.html
+17. git log 
+18. git revert "id of last stage"
+
+
+				GIT BRANCHING 
+				SECTION 1
+
+25. 	git branch html-assignments
+26.	git checkout html-assignments
+27.	touch new.html
+28.	git add new.html
+29.	make changes in new.html
+30.	git commit -m "new.html"
+31.	git checkout master
+32. 	make changes
+	git add README.txt
+	git commit -m "README.txt"
+33.	git checkout html-assignments
+34 	make changes inhtml-assignments
+35.	git add new.html
+	git commit -m "new.html"
+36.	git checkout master
+37.	git merge html-assignments
+38. 	git branch -- merged
+39 	git branch -d html-assignments
+
+				SECTION 2
+
+1.	git branch css-assignments
+2	git checkout css-assignments
+3	git add new.css
+4	git commit -m "new.css"
+5 	changes in README.txt &  git add README.txt
+6 	git commit -m "README.txt"
+7	git checkout master
+8	changes
+	git add README.txt
+	git commit -m "README.txt"
+9	git checkout css-assignments
+10	make changes in css-assignments
+11	git commit -m "css-assignmenmts"
+12	git checkout master
+13	git merge css-assignments
+14	git branch -d css-assignments
+
+
+			SECTION 3
+
+
+1.	git branch js-assignments
+2	git checkout js-assignments
+3	git add new.js
+4	git commit -m "new.js"
+5 	changes in README.txt &  git add README.txt
+6 	git commit -m "README.txt"
+7	git checkout master
+8	changes
+	git add README.txt
+	git commit -m "README.txt"
+9	git checkout js-assignments
+10	make changes in js-assignments
+11	git commit -m "js-assignmenmts"
+12	git checkout master
+13	git merge js-assignments
+14	git branch -d js-assignments
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
