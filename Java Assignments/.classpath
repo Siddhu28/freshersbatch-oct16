@@ -3,5 +3,6 @@
 	<classpathentry kind="src" path="ExceptionHandling"/>
 	<classpathentry kind="src" path="Generics"/>
 	<classpathentry kind="src" path="CollectionFramework"/>
+	<classpathentry kind="src" path="Annotations"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
