@@ -6,5 +6,6 @@
 	<classpathentry kind="src" path="Annotations"/>
 	<classpathentry kind="src" path="Lambda"/>
 	<classpathentry kind="src" path="StreamsAssignment"/>
+	<classpathentry kind="src" path="Java11"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
