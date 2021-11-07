@@ -5,5 +5,6 @@
 	<classpathentry kind="src" path="CollectionFramework"/>
 	<classpathentry kind="src" path="Annotations"/>
 	<classpathentry kind="src" path="Lambda"/>
+	<classpathentry kind="src" path="StreamsAssignment"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
