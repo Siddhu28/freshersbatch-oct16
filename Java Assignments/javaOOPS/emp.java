@@ -1,27 +1,63 @@
-package javaOOPS;
 
-public class Employee {
-	public void salary(int amt) { 
-		System.out.println("Salary of Employee is"+ amt);
-		return amt;
+import java.util.Scanner;
+
+public class organization {
+
+	public static void main(String[] args) {
+		 Manager manager = new Manager();
+		 Labour labour = new Labour();
+		 
+		 manager.addSalary();
+		 manager.addIncentive();
+		 
+		 labour.addSalary();
+		 labour.addOverTime();
+		 
+		 manager.salary();
+		 labour.salary();
 	}
 }
-class manager extends Employee{
-	public void salary(int amt) {
-		System.out.println("Incentive of Manager is"+ amt);
-		return amt;
+
+
+class Employee{
+	
+	int salary;
+	Scanner sc = new Scanner(System.in);
+	public void salary() {
+		System.out.println(salary);
+	}	
+}
+
+class Manager extends Employee{
+	int incentive;
+	
+	public void addSalary() {
+		System.out.println("Enter salary to add for Manager:");
+		salary= sc.nextInt();
+	}
+	public void addIncentive() {
+		System.out.println("Add incentive:");
+		incentive = sc.nextInt();
+	}
+	public void salary() {
+		System.out.println("Salary of Employee : "+(salary+incentive));
 	}
 }
-class labour extends Employee{
-	public void salary(int amt) {
-		System.out.println("overtime of labour is"+ amt);
-		return amt;
+
+
+class Labour extends Employee{
+	
+	int overTime;
+	 
+	public void addSalary() {
+		System.out.println("Enter salary to add for Labour:");
+		salary= sc.nextInt();
 	}
-}
-class emp
-{
-	public static void main(String args[])
-	{
-		
+	public void addOverTime() {
+		System.out.println("Add over time:");
+		overTime = sc.nextInt();
+	}
+	public void salary() {
+		System.out.println("Salary of Labour : "+(salary+overTime));
 	}
 }
