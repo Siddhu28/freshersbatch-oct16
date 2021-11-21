@@ -9,8 +9,8 @@ import java.util.Scanner;
 public class Q5 {
 
 	public static void main(String[] args) {
-		var path1="C:\\Users\\SDINKARR\\eclipse-workspace\\java11assignment\\src\\java11Q5\\File1.txt";
-		var path2="C:\\Users\\SDINKARR\\eclipse-workspace\\java11assignment\\src\\java11Q5\\File2.txt";
+		var path1="C:\\Users\\SDINKARR\\git\\Assignments\\java11assignment\\src\\java11Q5\\File1.txt";
+		var path2="C:\\Users\\SDINKARR\\git\\Assignments\\java11assignment\\src\\java11Q5\\File2.txt";
 		int ch,price,totalPrice=0;
 		boolean isTrue=true;
 		Scanner sc=new Scanner(System.in);
